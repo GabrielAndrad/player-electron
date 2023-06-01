@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="margin: 0;
+padding: 0;
+border: 0;" lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>play vídeos</title>
+  <script>
+    const {ipcRenderer} = require('electron')
+    setTimeout(() => {
+        ipcRenderer.send('loopVideo',true)
+    },3000)
+  </script>
+  
+</head>
+ <body style="margin: 0px; padding: 0px; width:100vw; height: 100vh; overflow: hidden; position: relative;justify-content:center;align-items:center;display:flex">
+ <div class="c-loader"></div>
+ </body>
+ <style>
+ body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  transform: scale(5);
+}
+
+.c-loader {
+  animation: is-rotating 1s infinite;
+  border: 3px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: #51d4db;
+  height: 20px;
+  width: 20px;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+ </style>
+<footer>
+</footer>
+</html>

@@ -1,0 +1,45 @@
+.body {
+  width: auto;
+}
+
+@font-face {
+  font-family: 'DIGITAL';
+  src: url('fonts/Digital7-rg1mL.ttf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'LCD';
+  src: url('fonts/LCD14.otf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'BARRBAR';
+  src: url('fonts/Barrbar-DOKOR.otf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'RONYSISWADI';
+  src: url('fonts/RonysiswadiArchitect6-X3V9G.ttf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'SPARKY';
+  src: url('fonts/SparkyStonesRegular-BW6ld.ttf') format('truetype');
+  /* Outras propriedades da fonte */
+}
+
+@font-face {
+  font-family: 'SUNNY';
+  src: url('fonts/SunnyspellsRegular-MV9ze.otf') format('truetype');
+  /* Outras propriedades da fonte */
+}
